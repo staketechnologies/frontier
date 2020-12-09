@@ -6,7 +6,4 @@ members = [
 	"rpc/primitives",
 	"consensus",
 	"consensus/primitives",
-	"template/node",
-	"template/runtime",
-	"template/test-utils/client",
 ]

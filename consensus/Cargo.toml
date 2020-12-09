@@ -9,18 +9,18 @@ repository = "https://github.com/paritytech/frontier/"
 
 [dependencies]
 codec = { package = "parity-scale-codec", version = "1.3.4", features = ["derive"] }
-sp-core = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sp-runtime = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sp-api = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sc-client-api = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
-sp-inherents = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
+sp-core = "2.0.0"
+sp-blockchain = "2.0.0"
+sp-runtime = "2.0.0"
+sp-api = "2.0.0"
+sc-client-api = "2.0.0"
+sp-block-builder = "2.0.0"
+sp-inherents = "2.0.0"
 frontier-consensus-primitives = { version = "0.1.0", path = "primitives" }
-sp-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
+sp-consensus = "0.8.0"
 log = "0.4.8"
 futures = { version = "0.3.1", features = ["compat"] }
-sp-timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch" }
+sp-timestamp = "2.0.0"
 derive_more = "0.99.2"
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", git = "https://github.com/paritytech/substrate.git", branch = "rococo-branch"}
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.8.0" } 
 ethereum = { version = "0.4", features = ["with-codec"] }
